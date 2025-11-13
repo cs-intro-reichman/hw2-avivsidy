@@ -13,7 +13,7 @@ public class Collatz {
 				if (mode.equals("v"))
 				{
 					countIterations++;
-					System.err.print(seed + " ");
+					System.out.print(seed + " ");
 				}
 				seed=3*seed+1;
 			}
@@ -34,15 +34,15 @@ public class Collatz {
 			}
 			if (mode.equals("v"))
 			{
-				System.err.print("1 " + "(" + countIterations + ")");
-				System.err.println();
+				System.out.print("1 " + "(" + countIterations + ")");
+				System.out.println();
 				countIterations=1;
 			}	
 		}
 		if (mode.equals("v") || mode.equals("c"))
 		{
-			System.err.println();		
-			System.err.println("Every one of the first " + N + " hailstone sequences reached 1.");
+			System.out.println();		
+			System.out.println("Every one of the first " + N + " hailstone sequences reached 1.");
 		}	
 }
 }

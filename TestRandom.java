@@ -13,10 +13,10 @@ public  class  TestRandom {
 			    countInSecondHalf++;
 			}
 		}
-		System.err.println("> 0.5: " + countInFirstHalf + " times");
-		System.err.println("<=0.5: " + countInSecondHalf + " times");
+		System.out.println("> 0.5: " + countInFirstHalf + " times");
+		System.out.println("<=0.5: " + countInSecondHalf + " times");
 		if (countInSecondHalf != 0)	{
-		System.err.println("Ratio " + ((double) countInFirstHalf / countInSecondHalf));
+		System.out.println("Ratio " + ((double) countInFirstHalf / countInSecondHalf));
 		}
 	}
 }

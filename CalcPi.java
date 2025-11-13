@@ -12,7 +12,7 @@ public class CalcPi
 			sign = -sign;
 		}
 		piApproximation = piApproximation * 4.0;
-		System.err.println("pi according to java: " + Math.PI);
-		System.err.println("pi, approximated:     " + piApproximation);
+		System.out.println("pi according to java: " + Math.PI);
+		System.out.println("pi, approximated:     " + piApproximation);
 }
 }
