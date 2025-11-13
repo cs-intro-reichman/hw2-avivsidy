@@ -24,9 +24,10 @@ public class Cheers {
                     System.out.println("Give me a  " + letter + ": " + letter + "!");
                 }
             }
+            System.err.println("What does that spell?");
             for (int i=0; i<Integer.parseInt(numToCheer); i++)
             {
-                System.out.println(nameToCheer + " ! ! !");
+                System.out.println(nameToCheer + "! ! !");
             }
         }
 }
